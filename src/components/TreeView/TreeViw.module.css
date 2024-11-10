@@ -1,0 +1,23 @@
+.tree_view{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.first_level{
+  color: blue;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.second_level{
+  color: green;
+  cursor: pointer;
+  margin: 5px 0;
+
+}
+.second_level >div{
+  margin-bottom: 5px;
+}
+.third_level{
+  color: gray;
+  margin-left: 20px;
+}
